@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Output of go coverage tool
+*.out
+
+# Environment
+.env
+.env.local
+
+# Dependency directories
+vendor/
+
+# Go workspace
+go.work
+go.sum
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Internal agent instructions (not for public repos)
+OPUS_AGENT_INSTRUCTIONS.md
+LEARNING_NOTES.md
